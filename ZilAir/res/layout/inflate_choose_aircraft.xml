@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Choose Aircraft Type"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="HELICOPTER"
+                    android:textColor="@color/text_color" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_fleet1"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_fleet1_background"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_centerInParent="true" >
+
+                        <ImageView
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/fleet_1" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/text_color" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_fleet2"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_fleet2_background"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:src="@drawable/fleet_2"
+                            android:text="OR"
+                            android:textSize="40sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="FIXED WINGS"
+                    android:textColor="@color/text_color" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_fleet3"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/relative_fleet3_background"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_centerInParent="true" >
+
+                        <ImageView
+                            android:layout_width="125dp"
+                            android:layout_height="125dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/fleet_3" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/next_chooseaircraft"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/next"
+                android:text="NEXT"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

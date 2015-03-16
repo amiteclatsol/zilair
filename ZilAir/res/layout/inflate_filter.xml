@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="25dp"
+            android:gravity="left"
+            android:text="CHOOSE DATE" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/filter_date"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/date" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/select_filter_date"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:background="@color/bookflight_bg"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="CHOOSE TO &amp; FROM " />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_filter"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:background="@color/bookflight_bg"
+            android:entries="@array/source_arrays"
+            android:gravity="center"
+            android:prompt="@string/prompt_source"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="25dp" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/allbutton"
+            android:text="Filter" />
+    </LinearLayout>
+
+</LinearLayout>

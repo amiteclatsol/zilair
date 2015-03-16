@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Choose Destination &amp; Date"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trip:"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/flighttype"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_oneway"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="One Way"
+                    android:textColor="@color/text_color" />
+
+                <RadioButton
+                    android:id="@+id/radio_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Return"
+                    android:textColor="@color/text_color" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:text="From:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <Spinner
+                    android:id="@+id/from"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp"
+                    android:background="@color/bookflight_bg"
+                    android:entries="@array/source_arrays"
+                    android:gravity="center"
+                    android:prompt="@string/prompt_source"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:text="Departure Date:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/linear_updatesourcedate"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:id="@+id/from_date"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/bookflight_bg"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:text="Time:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/linear_time_source"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:id="@+id/from_time"
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/bookflight_bg"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:text="To:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <Spinner
+                    android:id="@+id/to"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp"
+                    android:background="@color/bookflight_bg"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:text="Return Date:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/linear_date_destination"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:id="@+id/to_date"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/bookflight_bg"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="22dp"
+                    android:text="Time:"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/linear_time_destination"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:id="@+id/to_time"
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/bookflight_bg"
+                    android:gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/next_choosedestination"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/next"
+                android:text="NEXT"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

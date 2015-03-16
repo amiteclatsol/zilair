@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="senderId">779956390545</string>
+    <string name="api_key">AIzaSyDGBQCO03kGNfwJ7RLdlND9mKJCUWBEi6A</string>
+    
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+    <string name="app_name">ZilAir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="dateandtime">Date &amp; Time</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_pdf_viewer">PdfViewerActivity</string>
+    <string name="title_activity_curl">CurlActivity</string>
+    <string name="title_activity_new">NewActivity</string>
+
+    <!-- Validations -->
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="enter_valid_number">Enter Valid Phone Number</string>
+    <string name="enter_user_details">Ensure User Details</string>
+    <string name="enter_return_date">Enter Return Date</string>
+    <string name="enter_valid_return_date">Enter Valid Return Date</string>
+    <string name="select_departure">Select Departure</string>
+    <string name="select_destination">Select Destination</string>
+    <string name="source_destination_same">Departure And Destination Cannot Be Same</string>
+    <string name="select_passengers">Select Passengers</string>
+    <string name="select_aircraft">Select Aircraft</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_source_date">Select Source Date</string>
+    <string name="select_source_time">Select Source Time</string>
+    <string name="select_return_time">Select Return Time</string>
+    <string name="title_activity_new_home">NewHomeActivity</string>
+    <string name="title_activity_new_zil_air_exp">NewZilAirExpActivity</string>
+    <string name="termsandconditions">Business Standard Ltd allows you to access its websites (www.business-standard.com &amp; www.businessstandard.com, www.smartinvestor.in, www.bshindi.com and www.bsmotoring,com) and all the content in them on certain terms and conditions specified below. By accessing or subscribing to any part of these sites, you are explicitly agreeing to the terms and conditions below.
+ 
+These terms and conditions were updated as on December 1, 2003, and Business Standard Ltd reserves all rights to change, modify or alter these terms and conditions at any point of time with or without notifying existing users and subscribers. If you do not agree to the new terms and conditions you should not use the business-standard.com and other associated sites mentioned above. Paid users will be refunded the unexpired portions of their subscriptions on a pro rata basis if they send us an email within 72 hours of changes made in the terms and conditions.</string>
+    <string name="prompt_source">Select</string>
+
+    <string-array name="source_arrays">
+        <item>Seychelles Int. Airport/Zil Air Base</item>
+        <item>Aride</item>
+        <item>Banyan Tree Resort</item>
+        <item>Bird Island</item>
+        <item>Cap Lazare</item>
+        <item>Cert Island Resort</item>
+        <item>Chateau De Feuilles</item>
+        <item>Cousine Island</item>
+    </string-array>
+
+    <string name="default_passengers">0</string>
+
+    <string-array name="source_passengers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

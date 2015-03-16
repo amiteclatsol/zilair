@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <!-- <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80" /> -->
+        
+        <com.example.util.CurlView
+        android:id="@+id/curl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80" />
+        
+        <!-- <com.example.util.TouchImageView
+        android:id="@+id/back_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18" >
+
+        <com.example.util.MyHorizontalLayout
+            android:id="@+id/mygallery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            />
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="65"
+            android:orientation="vertical"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="35"
+                android:background="@drawable/about_us_main_1" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <LinearLayout
+                    android:id="@+id/linear_map"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/about_us_main_2_1"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/about_us_main_2_2" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="25"
+                android:background="@drawable/about_us_main_3" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            android:orientation="vertical"
+            android:weightSum="100" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="35" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/abouts_us_helicopter" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/black"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Helicopter Flight Operations"
+                        android:textColor="#F0871D"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Sunrse to Sunset"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Seven Days a week"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Helicopter Flight Operations"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Fixed Wing Flight Operations"
+                        android:textColor="#F0871D"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Sunrse to Sunset"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Night Flight On Demand"
+                        android:textColor="#F7EA32"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Seven Days a week"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="365 days a year"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Contact Details"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Tel: +248 4 375 100"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Fax: +248 4 375 101"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Emergency"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/emergency_contact1"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="+248 2 528 800/01/03"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/emergency_contact2"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="+248 2 514 940/ +248 2 521 470"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/mail_reservations"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Reservations: book@zilair.com"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/mail_operations"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Operations: operations@zilair.com"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/mail_corporate"
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:background="@android:color/black"
+                        android:gravity="center"
+                        android:text="Corporate: corporate@zilair.com"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

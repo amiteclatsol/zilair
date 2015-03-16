@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilair.MenuActivity" >
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_layout" >
+
+        <include layout="@layout/left_menu" />
+    </RelativeLayout>
+
+   <!--  <LinearLayout
+        android:id="@+id/menu_left_list"
+        style="@style/menuleft_style"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:padding="10dp" />
+
+        <ListView
+            android:id="@+id/menu_left_listview"
+            style="@style/menuleft_style"
+            android:background="#DB3122" >
+        </ListView>
+    </LinearLayout>
+ -->
+    <LinearLayout
+        android:id="@+id/menu_right_list"
+        style="@style/menuleft_style"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/header_layout"
+        android:background="@drawable/gradient_menu_bg"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

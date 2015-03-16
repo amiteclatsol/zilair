@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zilair.HomeActivity" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homebackground" >
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:alpha="0.8"
+            android:layout_marginLeft="10dp"
+            android:background="@color/header"
+            android:orientation="vertical" >
+
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/zilair_logo" />
+            </RelativeLayout>
+            
+
+            <ListView
+                android:id="@+id/list_main_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="false" >
+            </ListView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="63dp"
+            android:alpha="0.8"
+            android:background="@color/header"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="The Zil Air Experience"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

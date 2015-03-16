@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="background">#FFEFDC</color>
+    <color name="header">#3E3E3E</color>
+    <color name="header_light">#6E6E6E</color>
+    <color name="bookflight_bg">#D7D7D7</color>
+    <color name="bookflight_bg_light">#EFEFEF</color>
+    <color name="grey">#B3B3B3</color>
+    <color name="text_color">#4F4F4F</color>
+    
+</resources>
